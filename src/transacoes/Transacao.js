@@ -7,9 +7,9 @@ import './Transacao.css'
 function Transacao({ data, tipo, valor }) {
     return (
         <div className="transacao-container">
-            <p>{data}</p>
             <p>{tipo}</p>
             <p>R$ {valor}</p>
+            <p>{data}</p>
         </div>
     )
 };

@@ -1,7 +1,20 @@
 .Conta-header {
-    color: #3ea03f;
+    color: #47369c;
+    margin: 0;
 }
 
 .Saldo-valor {
     color: #426fa2;
 }
+
+.Conta__saldo {
+    margin: 0 auto;
+    background-color: #e6f1fe;
+    font-size: 20px;
+    font-weight: 600;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
